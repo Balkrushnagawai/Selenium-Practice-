@@ -3,22 +3,21 @@ package demo;
 public class Equilateral_download_with_space {
 	public static void main(String[]args)
 	{
-		int star=9;
-		int space=1;
-		for(int i=1; i<=5; i++)
+		int space =8;
+		int star=1;
+		for(int a=1; a<=8; a++)
 		{
-			for (int a=1; a<=star; a++)
+			for(int i=1; i<=space; i++)
+			{ 
+				System.out.print("  ");
+			}
+			for(int i=1; i<=star; i++)
 			{
 				System.out.print(" *");
 			}
 			System.out.println();
-			System.out.println();
-			for(int a=1; a<=space; a++)
-			{
-				System.out.print(" ");
-			}
-			star=star-2;
-			space=space+2;
+			space--;
+			star=star+2;
 		}
 	}
 
