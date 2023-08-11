@@ -5,7 +5,6 @@ public class Swaping_Two_Numbers{
 	{
 		int a=10;
 		int b=20;
-		
 		int c;
 		
 		c=a; //c=10;
